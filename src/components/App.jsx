@@ -1,9 +1,10 @@
 import React from "react";
+import Navbar from "./Navbar";
+
 
 function App() {
     return <div>
-
-        <h1>EEELO WORLDDD</h1>
+        <Navbar/>
     </div>
 }
 
