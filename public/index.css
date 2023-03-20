@@ -124,6 +124,24 @@
     width: 40px;
     height: 40px;
     position: relative;
-    top: 5px;
-    left: 450px;
+    top: 2px;
+    left: 190px;
 }
+
+.searchbar{
+    background: none;
+    border: none;
+    color: #6A6A6A;
+    font-family:AXIS,Helvetica, sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    
+    
+}
+
+.searchbar:focus{
+    outline: none;
+    border: none;
+    color: aliceblue;
+  }
