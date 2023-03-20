@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 .navbarTitle{
     color: aqua;
 }
@@ -12,6 +17,7 @@
     margin-top: 0;
     padding: 0;
     position: relative;
+    z-index: 1;
 }
 
 .yellow-line{
@@ -27,25 +33,97 @@
 .navbarmenu{
     
     padding: 0px 10px;
-    margin: 0 20px;
+    margin: 0 10px;
     border: 0;
     background: none;
     font-family:AXIS,Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .navbarlogin{
     
-    padding: 8px 20px;
-    margin: 0 20px;
+    padding: 8px 30px;
+    margin: 0;
     border: 0;
     border-radius: 8px;
     background: #F09027;
     font-family:AXIS,Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .navbarmenubuttons{
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 30px;
+}
+
+.slidebg{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background: rgb(81,214,200);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%,rgba(140,190,170,1) 100%);
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.slidesquotes{
+    font-family:AXIS,Helvetica, sans-serif;
+    padding-left: 40px;
+    width: 700px;
+    font-size: 30px;
+    z-index: 2;
+}
+
+.slide-pattern{
+    width: 1200px;
+    position: absolute;
+    z-index: 0;
+    opacity: 10%;
+    left: -150px;
+    display: block;
+}
+
+.slide-illustration{
+    z-index: 1;
+    position: absolute;
+    right:-50px;
+    width: auto;
+    display:block;
+
+}
+
+.slide1{
+    width:100%
+    
+}
+
+.searchbg{
+    background-color: #202020;
+    border: solid;
+    border-color: #F09027;
+    padding: 5px 20px;
+    width: 600px;
+    border-radius: 500px;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+    display: flex;
+}
+
+.searchtxt{
+    color: #6A6A6A;
+    font-family:AXIS,Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.searchbutton{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    left: 450px;
 }
