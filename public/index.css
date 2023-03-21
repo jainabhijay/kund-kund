@@ -102,6 +102,7 @@
 }
 
 .searchbg{
+    position: absolute;
     background-color: #202020;
     border: solid;
     border-color: #F09027;
@@ -145,3 +146,143 @@
     border: none;
     color: aliceblue;
   }
+
+
+  .allcoursesbarbg{
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+    justify-content: center;
+}
+
+.allcoursesbutton{
+    z-index: 2;
+    color: #020202;
+    font-family:AXIS,Helvetica, sans-serif;
+    background-color: #F09027;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    
+
+    
+}
+
+.whitebg{
+    top: -15px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 30%;
+}
+
+.musicbarbg{
+    display: flex;
+    align-items: center;
+    background: #F5A752 ;
+    height: 120px;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+}
+.musicicon{
+    width: 90px;
+    margin-left: 30px;
+    align-items: center;
+    position: inherit;
+    padding-left: 70px;
+
+}
+
+.musicbartxt{    
+    padding: 30px;
+}
+
+.statsbarbg{
+    display: flex;
+    align-items: center;
+    background: #c6f1e9 ;
+    height: 120px;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+}
+
+.statsbutton{
+    
+    padding: 0px 10px;
+    margin: 0 132px;
+    border: 0;
+    background: none;
+    font-family:AXIS,Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.coursecardimage{
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+.displaycourses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coursecarddetails{
+    background-color: #F09027;
+    width: 200px;
+    text-align: center;
+    align-self: center;
+    position: absolute;
+    bottom: 40px;
+    border-radius: 0 0 10px 10px;
+}
+
+.coursecard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+.topcategogybutton{
+    color: #020202;
+    background-color: #f0f0f0;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+.topcategorybg{
+    display: flex;
+    align-items: center;
+    background: rgb(231, 128, 212);
+    height: 180px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.categorytext{
+    padding: 90px;
+    font-size: 20px;
+}
