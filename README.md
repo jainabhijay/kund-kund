@@ -1,11 +1,7 @@
 This is the main repository for kundkund.com.
 =============================================
-Team Members:
+To run in your device:
 
-Abhijay Jain
-Garvesh Patidar
-Shreyash Choulge
-Suprit Ratnakar
-Adtitya Garg
-Rohit Singh
-Sanchit Gupta
+1.pull the repository
+2.npm install
+3.npm start
