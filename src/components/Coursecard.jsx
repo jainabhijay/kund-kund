@@ -1,11 +1,11 @@
 import React from "react";
-import Coursecardimage from "./Coursecardimage";
-import Coursecarddetails from "./Coursecarddetails";
 
-function Coursecard(){
+function Coursecard(props){
     return <div className="coursecard">
-        <Coursecardimage/>
-        <Coursecarddetails/>
+        <img src={props.img} alt="cardimage" className="coursecardimage"></img>
+        <div className="coursecarddetails">
+            <p>{props.coursename}</p>
+        </div>
     </div>
 }
 
