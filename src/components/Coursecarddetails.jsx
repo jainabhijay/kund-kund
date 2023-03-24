@@ -2,7 +2,7 @@ import React from "react";
 
 function Coursecarddetails(params) {
     return <div className="coursecarddetails">
-        <p>Hello</p>
+        <p>Course Name</p>
     </div>
 }
 

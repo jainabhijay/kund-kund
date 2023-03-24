@@ -261,18 +261,7 @@
     position: relative;
 }
 
-.topcategogybutton{
-    color: #020202;
-    background-color: #f0f0f0;
-    font-size: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    border: none;
 
-}
 .topcategorybg{
     display: flex;
     align-items: center;
@@ -285,4 +274,19 @@
 .categorytext{
     padding: 90px;
     font-size: 20px;
+}
+
+.allcoursesbutton{
+    z-index: 2;
+    color: #020202;
+    font-family:AXIS,Helvetica, sans-serif;
+    background-color: #F09027;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 80px;
+    border: none;
 }
