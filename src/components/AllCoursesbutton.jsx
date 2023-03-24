@@ -9,7 +9,6 @@ function Allcoursesbutton() {
         <button type="submit" className="allcoursesbutton"> ALL COURSES</button>
        
     </div>
-    <div className="yellow-line"></div>
 </div>
 }
 export default Allcoursesbutton;

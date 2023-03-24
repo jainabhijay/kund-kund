@@ -14,7 +14,7 @@ function Navbar() {
             
         </div>
         
-        <div className="yellow-line"></div>
+        {/* <div className="yellow-line"></div> */}
     </div>
 }
 

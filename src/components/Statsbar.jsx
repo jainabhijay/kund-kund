@@ -15,7 +15,6 @@ function Statsbar() {
         </div>
     </div>
     <div className="red-line"></div>
-    <div className="yellow-line"></div>
 </div>
 
 }

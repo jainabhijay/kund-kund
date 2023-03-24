@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     background: rgb(81,214,200);
-    background: linear-gradient(90deg, rgba(140,190,170,1) 0%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(90deg, rgb(117, 213, 234) 0%, rgba(255,255,255,0) 100%);
     height: 100px;
     width: 100%;
     margin-top: 0;
@@ -226,7 +226,7 @@
 }
 
 .coursecardimage{
-    padding: 50px;
+    padding: 0px;
     width: 200px;
     height: 200px;
     
@@ -238,6 +238,9 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap ;
+    width: 70%;
+    margin: auto;
+
 }
 
 .coursecarddetails{
@@ -245,17 +248,18 @@
     width: 200px;
     text-align: center;
     align-self: center;
-    position: absolute;
-    bottom: 40px;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 8px 8px;
 }
 
 .coursecard{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 0px;
     position: relative;
+    border: solid 2px rgb(81, 81, 81);
+    margin: 15px;
+    border-radius: 8px;
 }
 
 
