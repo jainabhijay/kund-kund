@@ -1,7 +1,7 @@
 This is the main repository for kundkund.com.
 =============================================
-Steps to run
+To run in your device:
 
-1. Clone repository
-2. npm install
-3. npm start
+1.pull the repository
+2.npm install
+3.npm start
