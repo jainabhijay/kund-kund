@@ -13,12 +13,9 @@ function App() {
         <Navbar/>
         <Slides/>
         <Searchbar/>
-        
         <Allcoursesbutton/>
         <Statsbar/>
         <Displaycourses/>
-
-
         <Musicbar/>
         <Topcategory/>
         
