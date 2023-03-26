@@ -99,13 +99,14 @@
 .searchbutton{
     width: 40px;
     height: 40px;
-    position: relative;
-    top: 2px;
-    left: 190px;
+    position: absolute;
+    top: 7px;
+    right: 25px;
 }
 
 .searchbar{
     background: none;
+    width: 60%;
     border: none;
     color: #6A6A6A;
     font-family:AXIS,Helvetica, sans-serif;
