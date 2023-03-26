@@ -1,23 +1,14 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Slides from "./Slides";
-import Searchbar from "./Searchbar";
-import Allcoursesbutton from "./AllCoursesbutton";
-import Displaycourses from "./Displaycourses";
-import Musicbar from "./Musicbar";
-import Statsbar from "./Statsbar";
-import Topcategory from "./Topcategory";
+import Homepage from "./pages/Homepage";
+import {Route,Routes} from "react-router-dom";
+import AllCourses from "./pages/AllCourses";
 
 function App() {
     return <div>
-        <Navbar/>
-        <Slides/>
-        <Searchbar/>
-        <Allcoursesbutton/>
-        <Statsbar/>
-        <Displaycourses/>
-        <Musicbar/>
-        <Topcategory/>
+       <Routes>
+        <Route path="/" element={<Homepage/>}/>
+        <Route path="/allcourses" element={<AllCourses/>}/>
+       </Routes>
         
     </div>
 }

@@ -1,4 +1,4 @@
-import Coursecardimage1 from "./images/Coursecardimage1.png"
+
 
 const DispayCourseslist = [
     {

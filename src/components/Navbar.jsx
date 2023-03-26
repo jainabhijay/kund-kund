@@ -1,9 +1,12 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Navbar() {
     return <div >
         <div className="navbarbg">
-            <img src="https://kundkund.com/wp-content/uploads/2021/05/1.png" alt="logohere" className="logo"></img>
+            <Link to="/">
+                <img src="https://kundkund.com/wp-content/uploads/2021/05/1.png" alt="logohere" className="logo"></img>
+            </Link>
             <div className="navbarmenubuttons">
                 <button className="navbarmenu"> COURSES</button>
                 <button className="navbarmenu"> FEATURES</button>
