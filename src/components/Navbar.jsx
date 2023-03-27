@@ -8,7 +8,10 @@ function Navbar() {
                 <img src="https://kundkund.com/wp-content/uploads/2021/05/1.png" alt="logohere" className="logo"></img>
             </Link>
             <div className="navbarmenubuttons">
-                <button className="navbarmenu"> COURSES</button>
+                <Link to="/allcourses">
+                    <button className="navbarmenu"> COURSES</button>
+                </Link>
+
                 <button className="navbarmenu"> FEATURES</button>
                 <button className="navbarmenu"> BLOG</button>
                 <button className="navbarmenu"> GALERY</button>

@@ -62,7 +62,7 @@
 .slidebg{
     background-color: antiquewhite;
     width: 100%;
-    height: 430px;
+    height: 450px;
     display: flex;
     align-items: center;
     background: #7DEDED;
@@ -149,12 +149,24 @@
     margin-left: 0;    
 }
 
+a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 .whitebg{
-    top: -15px;
-    position: absolute;
+    top: -80px;
     width: 100%;
-    z-index: -1;
-    opacity: 30%;
+    z-index: -2;
+    opacity: 100%;
+    position: absolute;
+}
+
+.whitebgdiv{
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .musicbarbg{
@@ -215,7 +227,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap ;
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -227,8 +239,21 @@
     width: 200px;
     text-align: center;
     align-self: center;
-    border-radius: 0 0 6px 6px;
+    border-radius: 0 0 5px 5px;
     font-family:AXIS,Helvetica, sans-serif;
+}
+
+.coursecarddetails:active{
+    text-decoration: none;
+    color: #494949;
+}
+.displaycourseslink:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+.displaycourseslink:link{
+    text-decoration: none;
+    color: #bf2727;
 }
 
 .coursecard{
@@ -237,7 +262,7 @@
     justify-content: center;
     padding: 0px;
     position: relative;
-    border: solid 2px rgb(161, 161, 161);
+    border: solid 3px rgb(39, 39, 39);
     margin: 30px 50px;
     border-radius: 8px;
 
@@ -247,7 +272,7 @@
 .topcategorybg{
     display: flex;
     align-items: center;
-    background:#eb9234;
+    background:#7DEDED;
     height: 180px;
     width: 100%;
     font-family:AXIS,Helvetica, sans-serif;
@@ -276,7 +301,7 @@
 
 .topcategogybutton{
     border: none;
-    background-color: #7DEDED;
+    background-color: #F09027;
     padding: 15px;
     margin: 10px;
     font-family:AXIS,Helvetica, sans-serif;
